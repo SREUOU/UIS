@@ -34,7 +34,7 @@ function Luxt1.CreateWindow(libName, logoId)
     key1.TextColor3 = Color3.fromRGB(153, 255, 238)
     key1.TextSize = 14.000
 
-    local oldKey = Enum.KeyCode.. . ..Name
+    local oldKey = Enum.KeyCode.P.Name
 
     key1.MouseButton1Click:connect(function(e) 
         key1.Text = ". . ."
